@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<parameter name="mobileNo1" value="8542695874"></parameter>
+		<parameter name="mobileNo2" value="658742356"></parameter>
+		<parameter name="mobileNo3" value="95367482453"></parameter>
+		<parameter name="mobileNo4" value="7542"></parameter>
+		<parameter name="mobileNo5" value="  "></parameter>
+		<parameter name="mobileNo6" value="0000000000"></parameter>
+		<parameter name="mobileNo7" value="8888888888"></parameter>
+		<parameter name="mobileNo8" value="785 986 85"></parameter>
+		<parameter name="mobileNo9" value="Abcdefghij"></parameter>
+		<parameter name="mobileNo10" value="!@#$%^&**@"></parameter>
+		<parameter name="mobileNo11" value="Ab$%rd^&t@"></parameter>
+		<parameter name="mobileNo12" value="87654#$%^&"></parameter>
+		<parameter name="mobileNo13" value="1238569745"></parameter>
+		<parameter name="mobileNo14" value="2254687741"></parameter>
+		<parameter name="mobileNo15" value="3587496125"></parameter>
+		<parameter name="mobileNo16" value="4875698231"></parameter>
+		<parameter name="mobileNo17" value="5789461234"></parameter>
+		<parameter name="mobileNo18" value="63744607764"></parameter>
+		<parameter name="mobileNo19" value="7708506788"></parameter>
+		<parameter name="mobileNo20" value="9964626620"></parameter>
+		<parameter name="mobileNo21" value="9994466709"></parameter>
+		<classes>
+			<class name="org.testng.HomeInsuranceMobileEditBox" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

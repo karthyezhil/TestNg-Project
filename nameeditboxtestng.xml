@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<parameter name="username1" value="aa"></parameter>
+		<parameter name="username2" value="ABI"></parameter>
+		<parameter name="username3" value="Ramu"></parameter>
+		<parameter name="username4"
+			value="Adolph Blaine Charles David Earl Frederick Gerald"></parameter>
+		<parameter name="username5"
+			value="Adolph  Blaine Charles David Earl Frederick Gerald"></parameter>
+		<parameter name="username6"
+			value="Adolph  Blaine  Charles David Earl Frederick Gerald"></parameter>
+		<parameter name="username7" value="Christopher"></parameter>
+		<parameter name="username"
+			value="Adolph Blaine Charles David Earl Freder"></parameter>
+		<parameter name="username8" value="JeffreyDahmer"></parameter>
+		<parameter name="username9"
+			value="Adolph Blaine Charles David Ear Frederick Geral "></parameter>
+		<parameter name="username10" value="%$@!&"></parameter>
+		<parameter name="username11" value="854236"></parameter>
+		<parameter name="username12" value="A_b"></parameter>
+		<parameter name="username13" value="R__u"></parameter>
+		<parameter name="username14" value="Test852"></parameter>
+		<parameter name="username15" value="%$#Rec"></parameter>
+		<parameter name="username16" value="Yr65$#fg%^"></parameter>
+		<parameter name="username17" value="  "></parameter>
+
+		<classes>
+			<class name="org.testng.HomeInsuranceNameEditBox" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

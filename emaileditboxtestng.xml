@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="emailId1" value="abc123@gmail.com"></parameter>
+		<parameter name="emailId2" value="erty.ertg@ty.df"></parameter>
+		<parameter name="emailId3" value="ak47@gmail.com"></parameter>
+		<parameter name="emailId4" value="12345@yahho.co.in"></parameter>
+		<parameter name="emailId5" value="abc_abcqwe@yu.in"></parameter>
+		<parameter name="emailId6" value="uhj#$87@a.co"></parameter>
+		<parameter name="emailId7" value="a@you.in"></parameter>
+		<parameter name="emailId8" value="t@yahoo.in"></parameter>
+		<parameter name="emailId9" value="123.234@co"></parameter>
+		<parameter name="emailId10" value="@drft@gmail.com"></parameter>
+		<parameter name="emailId11" value="  "></parameter>
+
+		<classes>
+			<class name="org.testng.HomeInsuranceEmailEditBox" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
